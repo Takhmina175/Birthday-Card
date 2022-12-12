@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marck+Script&display=swap");
+body {
+  background: linear-gradient(276deg, #4e4adb, #f8e1e5, #511d83);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 50s ease infinite;
+  -moz-animation: AnimationName 50s ease infinite;
+  animation: AnimationName 50s ease infinite;
+}
+
+#text-frame {
+  width: 800px;
+  height: 500px;
+  margin: 10% auto;
+  position: relative;
+  border-radius: 30px;
+}
+.gradients {
+  background: linear-gradient(276deg, #f7043a, #f8e1e5, #870e29);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 50s ease infinite;
+  -moz-animation: AnimationName 50s ease infinite;
+  animation: AnimationName 50s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-transform: uppercase;
+  font-family: "Great Vibes", cursive;
+  font-size: 3em;
+  letter-spacing: 13px;
+  font-weight: 700;
+  line-height: 73px;
+  color: #3d1364;
+  text-align: center;
+  text-shadow: 1px 1px 1px #f1f1f1, 1px 2px 1px #f1f1f1, 1px 3px 1px #f1f1f1,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+.image-box {
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+img.heart-anim {
+  animation: roll 3s infinite;
+  transform: rotate(30deg);
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#heart-roses {
+  width: 100px;
+  position: absolute;
+  right: 3rem;
+  bottom: 0px;
+}
