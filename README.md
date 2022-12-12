@@ -5,10 +5,10 @@ Animation techniques were applied for images and for creating linear gradients.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Takhmina175/Birthday-Card/main/index.html)
+[Demo Link](https://raw.githack.com/Takhmina175/Birthday-Card/main/index.html)
 
 
-👤  **Takhmina Makhkamova**
+👤 **Takhmina Makhkamova**
 
 - GitHub: [@Takhmina175](https://github.com/Takhmina175)
 - Twitter: [@Takhmin73630110](https://twitter.com/Takhmin73630110)
